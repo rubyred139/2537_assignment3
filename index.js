@@ -105,7 +105,7 @@ const setup = async () => {
 
   $("#pokeFilter").append(
     res.data.results.map((type) => `
-      <div class="form-check inline">
+      <div class="form-check form-check-inline">
         <input class="filterbox form-check-input" type="checkbox" value="${type.name}" id="flexCheckDefault">
         <label class="form-check-label" for="flexCheckDefault">
           ${type.name}
